@@ -1,0 +1,20 @@
+{
+    "name": "express-proxy-server",
+    "version": "1.0.0",
+    "author": "Richard Fernandez",
+    "description": "Express server with proxy for SCORM assets",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "node src/index.js",
+      "dev": "nodemon src/index.js"
+    },
+    "dependencies": {
+      "dotenv": "^16.3.1",
+      "express": "^4.18.2",
+      "express-http-proxy": "^1.6.3"
+    },
+    "devDependencies": {
+      "nodemon": "^3.0.1"
+    },
+    "license": "MIT"
+  }
